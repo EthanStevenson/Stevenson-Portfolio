@@ -48,7 +48,7 @@ audio {
 
 @media(min-width:600px){
     body{
-        background-image: url(img/fadedroad50.jpg);
+        background-image: url(img/background.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -57,7 +57,6 @@ audio {
     }
 
     header{
-        background-image: url(img/cup.jpg);
         height: 128px;
         background-repeat: no-repeat;
         text-align:center;
@@ -247,7 +246,7 @@ audio {
         background-repeat: no-repeat;
     }
 
-    #heromugs{
+    #abouthero{
         background-image: url(img/aboutPic.jpg);
         height:250px;
         background-size: contain;
@@ -293,7 +292,6 @@ audio {
 
     header {
         text-align:center;
-        background-image: url(img/cup.jpg);
         background-repeat: no-repeat;
         height: 128px;
         background-color: #d2b48c;
@@ -423,14 +421,14 @@ audio {
     }
 
     #homehero {
-        background-image: url(img/road.jpg);
+        background-image: url(img/homePic.jpg);
         height:300px;
         background-size: cover;
         background-repeat: no-repeat;
     }
 
-    #heromugs {
-        background-image: url(img/threemugs.jpg);
+    #abouthero {
+        background-image: url(img/aboutPic.jpg);
         height:250px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -459,7 +457,7 @@ audio {
 /* desktop layout */
 @media(min-width:1024px){
     body {
-        background-image: url(img/fadedroad50.jpg);
+        background-image: url(img/background.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -624,7 +622,7 @@ audio {
     }
 
     #homehero {
-        background-image: url(img/hero.jpg);
+        background-image: url(img/homePic.jpg);
         height:300px;
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -638,7 +636,6 @@ audio {
     }
 
     #mughero {
-        background-image: url(img/coffeelogo.jpg);
         height: 150px;
         background-size:contain;
         background-repeat: no-repeat;
