@@ -40,12 +40,6 @@ audio {
     float: right;
 }
 
-#herocouch{
-    height: 300px;
-    background-image: url(img/herocouch.jpg);
-    background-size: 100% 100%;
-}
-
 @media(min-width:600px){
     body{
         background-image: url(img/background.jpg);
@@ -253,25 +247,12 @@ audio {
         background-repeat: no-repeat;
     }
 
-    #heroguitar{
-        background-image: url(img/heroguitar.jpg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-
     #mobile{
         display: inline;
     }
 
     #desktop{
         display: none;
-    }
-
-    #herojobs {
-        background-image: url(img/coffeecup.jpg);
-        height:300px;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
     }
 
     .details{
@@ -413,13 +394,6 @@ audio {
         padding-right: 1em;
     }
 
-    #guitarhero {
-        background-image: url(img/guitar.jpg);
-        background-size: cover;
-        height:300px;
-        background-repeat: no-repeat;
-    }
-
     #homehero {
         background-image: url(img/homePic.jpg);
         height:300px;
@@ -431,12 +405,6 @@ audio {
         background-image: url(img/aboutPic.jpg);
         height:250px;
         background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    #heroguitar {
-        background-image: url(img/heroguitar.jpg);
-        background-size: 100% 100%;
         background-repeat: no-repeat;
     }
 
@@ -555,7 +523,7 @@ audio {
         padding: 1em;
     }
 
-    main h2,h3,h4,div,ul,dl {
+    main h2,h3,h4,ul,dl {
         padding-left: 3em;
         padding-right: 2em;
     }
@@ -580,13 +548,6 @@ audio {
     .onethird {
         float: left;
         width: 33%;
-    }
-
-    #herojobs {
-        background-image: url(img/coffeecup.jpg);
-        height:300px;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
     }
     
     form {
@@ -614,37 +575,23 @@ audio {
         width: 9em;
     }
 
-    #guitarhero {
-        background-image: url(img/heroguitar.jpg);
-        background-size: cover;
-        height:300px;
-        background-repeat: no-repeat;
-    }
-
     #homehero {
         background-image: url(img/homePic.jpg);
-        height:300px;
-        background-size: 100% 100%;
+        background-size: 100% auto;
         background-repeat: no-repeat;
+        background-position: center;
     }
 
-    #heromugs {
-        background-image: url(img/heromugs.jpg);
-        height:250px;
-        background-size: contain;
+    #abouthero{
+        background-image: url(img/aboutPic.jpg);
+        background-size: 60% auto;
         background-repeat: no-repeat;
+        background-position: center;
     }
 
     #mughero {
         height: 150px;
         background-size:contain;
-        background-repeat: no-repeat;
-    }
-
-
-    #heroguitar {
-        background-image: url(img/heroguitar.jpg);
-        background-size: 100% 100%;
         background-repeat: no-repeat;
     }
 
