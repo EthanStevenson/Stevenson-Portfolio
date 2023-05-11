@@ -7,6 +7,7 @@ table{
     border-spacing: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2em;
 }
 
 td,th{
@@ -14,260 +15,19 @@ td,th{
 }
 
 tr:nth-of-type(odd){
-    background-color: #D2B48E;
+    background-color: #222;
 }
 
-audio {
-    display:block;
-    margin-top:1em;
-    margin-left: 6em;
-}
-
-.items {
-    background-color: #faf9f7;
-    margin:1em;
-    padding: 1em;
-    overflow: auto;
-    width: 50%;
+tr:nth-of-type(even){
+    background-color: #444;
 }
 
 
-.items button{
-    justify-self: center;
-}
-
-.items img {
-    float: right;
-}
-
-@media(min-width:600px){
-    body{
-        background-image: url(img/background.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        color: #7f5539;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    header{
-        height: 128px;
-        background-repeat: no-repeat;
-        text-align:center;
-        background-color: #d2b48c;
-        color: #231814;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 0px;
-    }
-
-    header a{
-        text-decoration: none;
-    }
-
-    header a:link{
-        color: #231814;
-    }
-
-    header a:visited{
-        color: #231814;
-    }
-
-    header a:hover{
-        color: #FEF6C2;
-    }
-
-    h1{
-        font-size: 3em;
-    }
-
-    h2{
-        color:#7F5539;
-    }
-
-    h3{
-        color:#4d3423;
-    }
-
-    h4{
-        background-color: #7F5539;
-        color:#DDBEA9;
-        font-size: 1.2em;
-        padding-left: .5em;
-        padding-bottom: 0;
-        text-transform: capitalize;
-        border-bottom: 2px solid #231814;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    main h2,h3,h4,p,div,ul,dl {
-        padding-left: 2em;
-        padding-right: 1em;
-    }
-
-    p{
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-
-    div{
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-
-    ul{
-        padding-left: 3em;
-        padding-right: 2em;
-    }
-
-    dl{
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-
-    dt{
-        color:#4d3423;
-    }
-
-    nav{
-        text-align: center;
-        font-weight: bold;
-        font-size: 1.5em;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-
-    nav a:link{
-        color: #FEF6C2;
-    }
-
-    nav a:visited{
-        color: #D2B48C;
-    }
-
-    nav a:hover{
-        color: #CC9933;
-    }
-
-    nav a{
-        text-decoration: none;
-        float: left;
-    }
-
-    nav ul{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        text-align: center;
-        list-style-type: none;
-        justify-content: space-around;
-    }
-
-    nav li{
-        border-bottom: none;
-    }
-
-    img{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    main{
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 0;
-        padding-bottom: 20%;
-        display: block;
-        background-color: #fef6c2;
-    }
-
-    footer{
-        text-align:center;
-        background-color: #9C6644;
-        color: #4d3423;
-        font-size: .6em;
-        font-style: italic;
-        border-top: 2px solid #4d3423;
-        padding: 1em;
-    }
-
-    form {
-        display:grid;
-        grid-template-columns: 6em 1fr;
-        column-gap: 1em;
-        padding-left: 1em;
-        width:40%;
-    }
-
-    input, textarea{
-        margin-bottom: 0.5em;
-        grid-column: 2;
-        width:1fr;
-    }
-
-    form label{
-        grid-column: 1;
-        width:1fr;
-    }
-
-    form button {
-        grid-column: 2;
-        width: 9em;
-    }
-
-    #flow {
-        padding-left:10px;
-        display: flex;
-        flex-direction: row;
-    }
-
-    #wrapper{
-        margin-right: auto;
-        margin-left: auto;
-        width: 90%;
-        background-color: #231814;
-        min-width: 600px;
-        max-width: 1280px; 
-        box-shadow: 5px solid #4d3423;
-        padding: 0;
-    }
-
-    #homehero{
-        background-image: url(img/homePic.jpg);
-        height:50vh;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-
-    #abouthero{
-        background-image: url(img/aboutPic.jpg);
-        height:250px;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-
-    #mobile{
-        display: inline;
-    }
-
-    #desktop{
-        display: none;
-    }
-
-    .details{
-        padding-left: 20%;
-        padding-right: 20%;
-        overflow: auto;
-        display: flex;
-        flex-direction: row;
-    }
-}
-
-@media (max-width:600px){
+@media (max-width:1024px){
     
     body {
-        color: #231814;
+        background-color: #000;
+        color: #84f074;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
@@ -275,49 +35,23 @@ audio {
         text-align:center;
         background-repeat: no-repeat;
         height: 128px;
-        background-color: #d2b48c;
-        color: #231814;
-        padding-top: 5px;
-        padding-left: 105px;
+        background-color: #111;
+        color: #84f074;
+        padding-top: 20px;
+        border-bottom: 5px solid #000;
     }
 
     header a:link,a:visited {
         text-decoration: none;
-        color: #231814;
+        color: #09a909;
     }
 
     header a:hover{
         text-decoration: none;
-        color: #fef6c2;
+        color: #84f074;
     }
 
-    h1 {
-        font-size:2em;
-    }
-
-    h2{
-        color:#231814;
-    }
-
-    h3 {
-        color:#4d3423;
-    }
-
-    dt {
-        color:#4d3423;
-    }
-
-    h4 {
-        background-color: #7F5539;
-        color:#DDBEA9;
-        font-size: 1.2em;
-        padding-left: .5em;
-        padding-bottom: 0;
-        text-transform: capitalize;
-        border-bottom: 2px solid #231814;
-    }
-
-    nav {font-size: 1.5em;    }
+    nav {font-size: 1.5em;}
 
     nav a{text-decoration: none;}
 
@@ -328,6 +62,7 @@ audio {
         margin: 0;
         padding: 0;
         font-size: 1.25em;
+        background-color: #222;
     }
 
     nav li{
@@ -336,12 +71,12 @@ audio {
         padding-left: 1em;
         padding-right: 1em;
         width: 100%;
-        border-bottom: 1px solid #DDBEA9;
+        border-bottom: 5px solid #000;
     }
 
-    nav a:link{color:#fef6c2;}
-    nav a:visited{color:#d2b48c;}
-    nav a:hover{color:#cc9933;}
+    nav a:link{color:#09a909;}
+    nav a:visited{color:#09a909;}
+    nav a:hover{color:#84f074;}
 
     main {
         padding-left: 0;
@@ -349,22 +84,23 @@ audio {
         padding-top: 0;
         padding-bottom: 20%;
         display: block;
-        background-color: #fef6c2;
+        background-color: #333;
     }
+
 
     footer {
         text-align:center;
-        background-color: #9C6644;
-        color: #4d3423;
-        font-size: .6em;
-        font-style: italic;
-        border-top: 2px solid #4d3423;
+        background-color: #111;
         padding: 1em;
     }
 
     main h2,h3,h4,p,div,ul,dl {
         padding-left: 1em;
         padding-right: 1em;
+    }
+
+    main a {
+        margin-left: 2em;
     }
 
     main ul{
@@ -378,20 +114,10 @@ audio {
         width:80%;
     }
 
-    form input,textarea{
+    form input{
         margin-bottom: 0.5em;
-        margin-left:20px;
-        margin-right: 20px;
-    }
-
-    .details {
-        padding-left: 20%;
-        padding-right: 20%;
-        overflow: auto;
-    }
-
-    #imgs {
-        padding-right: 1em;
+        margin-left:auto;
+        margin-right: auto;
     }
 
     #homehero {
@@ -402,23 +128,22 @@ audio {
     }
 
     #abouthero {
+        background-image: url(img/purdue.jpg);
+        height:300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #contacthero{
         background-image: url(img/aboutPic.jpg);
-        height:250px;
+        height:300px;
         background-size: cover;
         background-repeat: no-repeat;
     }
 
     #wrapper {
-        background-color: #231814;
+        background-color: #222;
         padding: 0;
-    }
-
-    #mobile {
-        display: inline;
-    }
-
-    #desktop {
-        display: none;
     }
 }
 
@@ -429,54 +154,27 @@ audio {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        color: #7f5539;
+        color: #84f074;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     header {
         background-image: none;
         text-align:center;
-        background-color: #d2b48c;
+        background-color: #111;
         color: #231814;
         padding-top: 5px;
         padding-bottom: 5px;
-        padding-left: 175px;
     }
 
     header a:link,a:visited {
         text-decoration: none;
-        color: #231814;
+        color: #09a909;
     }
 
     header a:hover{
         text-decoration: none;
-        color: #fef6c2;
-    }
-
-    h1 {
-        font-size:3em;
-    }
-
-    h2{
-        color:#231814;
-    }
-
-    h3 {
-        color:#4d3423;
-    }
-
-    dt {
-        color:#4d3423;
-    }
-
-    h4 {
-        background-color: #7F5539;
-        color:#DDBEA9;
-        font-size: 1.2em;
-        padding-left: .5em;
-        padding-bottom: 0;
-        text-transform: capitalize;
-        border-bottom: 2px solid #231814;
+        color: #84f074;
     }
 
     nav {
@@ -498,9 +196,9 @@ audio {
         display: block;
     }
 
-    nav a:link{color:#fef6c2;}
-    nav a:visited{color:#d2b48c;}
-    nav a:hover{color:#cc9933;}
+    nav a:link{color:#09a909;}
+    nav a:visited{color:#09a909;}
+    nav a:hover{color:#84f074;}
 
     main {
         padding-left: 0;
@@ -509,45 +207,37 @@ audio {
         padding-top: 0;
         padding-bottom: 20%;
         display: block;
-        background-color: #fef6c2;
+        background-color: #333;
 
     }
 
     footer {
         text-align:center;
-        background-color: #9C6644;
-        color: #4d3423;
-        font-size: .6em;
-        font-style: italic;
-        border-top: 2px solid #4d3423;
+        background-color: #111;
         padding: 1em;
     }
 
-    main h2,h3,h4,ul,dl {
+    footer a {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    main ul,dl {
         padding-left: 3em;
         padding-right: 2em;
     }
 
-    main p {
+    main p,h2,h3,h4 {
         padding-left: 1em;
     }
 
-
-
-    .details {
-        padding-left: 20%;
-        padding-right: 20%;
-        overflow: auto;
+    main a {
+        padding: 2em;
     }
 
     .floatleft {
         float: left;
         padding-bottom: 2em;
-    }
-
-    .onethird {
-        float: left;
-        width: 33%;
     }
     
     form {
@@ -558,39 +248,41 @@ audio {
         width:40%;
     }
     
-    input, textarea{
+    input{
         margin-bottom: 0.5em;
         grid-column: 2;
-        width:1fr;
-    }
-
-    form label{
-        grid-column: 1;
-        width:1fr;
-    }
-
-
-    form button {
-        grid-column: 2;
-        width: 9em;
+        width: fit-content;
     }
 
     #homehero {
         background-image: url(img/homePic.jpg);
+        height: 50vh;
         background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: center;
     }
 
     #abouthero{
-        background-image: url(img/aboutPic.jpg);
-        background-size: 60% auto;
+        background-image: url(img/purdue.jpg);
+        height: 50vh;
+        background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: center;
     }
 
-    #mughero {
+    #contacthero{
+        background-image: url(img/aboutPic.jpg);
+        height: 50vh;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #logohero {
+        background-image: url(img/logo.png);
         height: 150px;
+        margin-left: 1em;
+        background-position: center;
         background-size:contain;
         background-repeat: no-repeat;
     }
@@ -599,18 +291,9 @@ audio {
         margin-right: auto;
         margin-left: auto;
         width: 80%;
-        background-color: #231814;
+        background-color: #222;
         min-width: 900px;
         max-width: 1280px;
-        box-shadow: 5px solid #4d3423;
         padding: 0;
-    }
-
-    #desktop {
-        display: inline;
-    }
-
-    #mobile {
-        display: none;
     }
 }

@@ -4,7 +4,7 @@
         <title>Ethan Stevenson Portfolio</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Portfolio home page">
+        <meta name="description" content="Portfolio contact page">
         <link rel="stylesheet" href="portfolio.css">
     </head>
     <body>
@@ -13,7 +13,7 @@
                 <a href="index.html"><h1>Ethan Stevenson</h1></a>
             </header>
             <nav class="floatleft">
-                <div id="mughero"></div>
+                <div id="logohero" alt="logo"></div>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="future.html">Plans</a></li>
@@ -22,17 +22,25 @@
                 </ul>
             </nav>
             <main>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ab laboriosam, molestias enim saepe, repellendus cumque amet ipsum doloremque velit fugit quia, eaque veniam error! Dolor quasi incidunt esse at.</p>
-                <!-- <form action="https://webdevbasics.net/scripts/javajam8.php">
-                    <label>Name: </label><input type="text" for="Name" required>
-                    <label>Email: </label><input type="email" for="email" required>
-                    <label>Start Date: </label><input type="date" for="start" required>
-                    <label>Experience: </label><textarea type="text" for="experience" required></textarea>
-                    <input type="submit" value="Apply Now">
-                </form> -->
+                <div id="contacthero" alt="Ethan Stevenson photo"></div>
+                <p>Contact me at <a href="mailto:ethanstevenson252@gmail.com">ethanstevenson252@gmail.com</a> or 812-550-4850</p>
+                <br>
+                <p>Or contact me via this form:</p>
+                <br>
+                <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                    <p>Name:</p>
+                    <input type="text" name="name">
+                    <p>E-mail:</p>
+                    <input type="text" name="mail">
+                    <p>Comment:</p>
+                    <input type="text" name="comment" size="50">
+                    <input type="submit" value="Send">
+                </form>
             </main>
             <footer>
-                
+                <a href="https://github.com/EthanStevenson"><img src="img/github.png" alt="Github link" style="width:42px;height:42px;"></a>
+                <a href="https://www.gshs.sgibson.k12.in.us/en-US"><img src="img/gshs.png" alt="Gibson Southern High School link" style="height:42px;"></a>
+                <a href="https://sictc.evscschools.com/"><img src="img/sictc.jpeg" alt="Southern Indiana Career and Technical Center link" style="height:42px;"></a>
             </footer>
         </div>
     </body>
